@@ -16,6 +16,11 @@ const DATE_RANGE_FORMAT = {
     minute: '2-digit',
     hour12: false,
     timeZone: 'UTC'
+    header: {
+      left: 'prev,next',
+      center: 'title',
+      right: 'resourceTimelineDay,resourceTimelineWeek,resourceTimelineMonth'
+    },
 }
 
 let calendar
